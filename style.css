@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fafafa;
+    background-color:beige;
 }
 
 .container {
     width: 300px;
     margin: 0 auto;
     margin-top: 100px;
-    background-color: #fff;
+    background-color: #dbdbdb;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -15,7 +15,8 @@ body {
 
 h2 {
     text-align: center;
-    color: #262626;
+    color:darkslategrey;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 input[type="text"],
@@ -53,7 +54,3 @@ input[type="submit"]:hover {
     text-decoration: none;
 }
 
-h2{
-    color:black;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
