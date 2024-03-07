@@ -3,6 +3,17 @@ body {
     background-color:#fff;
 }
 
+.instagramlogo-image{
+    max-width:200px;
+    height: 60px;  
+}
+
+.login-image{
+    width:300px;
+    height:150px;
+}
+
+
 .container {
     width: 300px;
     margin: 0 auto;
