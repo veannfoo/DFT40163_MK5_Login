@@ -1,16 +1,16 @@
-body {
+.body {
     font-family: Arial, sans-serif;
-    background-color:#fff;
+    background-color: #fff;
 }
 
-.instagramlogo-image{
-    max-width:200px;
-    height: 60px;  
+.instagramlogo-image {
+    max-width: 200px;
+    height: 60px;
 }
 
-.login-image{
-    width:300px;
-    height:150px;
+.login-image {
+    width: 300px;
+    height: 150px;
 }
 
 
@@ -18,20 +18,14 @@ body {
     width: 300px;
     margin: 0 auto;
     margin-top: 100px;
-    background-color:#fff;
+    background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    text-align: center;
-    color:darkslategrey;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-input[type="text"],
-input[type="password"] {
+.username[type="text"],
+.password[type="password"] {
     width: calc(100% - 20px);
     padding: 10px;
     margin: 10px 0;
@@ -39,7 +33,7 @@ input[type="password"] {
     border-radius: 3px;
 }
 
-input[type="submit"] {
+.submit[type="submit"] {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
@@ -47,12 +41,8 @@ input[type="submit"] {
     border: none;
     color: #fff;
     border-radius: 3px;
-    cursor : pointer;
+    cursor: pointer;
     transition: background-color 0.3s;
-}
-
-input[type="submit"]:hover {
-    background-color: #357ae8;
 }
 
 .bottom-text {
@@ -61,7 +51,6 @@ input[type="submit"]:hover {
 }
 
 .bottom-text a {
-    color:blue;
+    color: blue;
     text-decoration: none;
 }
-
